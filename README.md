@@ -15,8 +15,8 @@ Dieses Projekt ist eine einfache Laravel-Anwendung, mit der du Erinnerungen (Mem
 ## Installation
 1. Repository klonen:
 	```
-	git clone <REPO-URL>
-	cd memorily-Tagebuch-mit-To-do-Liste
+	git clone https://github.com/marcus39-web/Laravel-Projektarbeit1-memorily-Tagebuch-mit-To-do-Liste.git
+	cd Laravel-Projektarbeit1-memorily-Tagebuch-mit-To-do-Liste
 	```
 2. Abhängigkeiten installieren:
 	```
