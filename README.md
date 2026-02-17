@@ -1,8 +1,63 @@
-## Memorily: Template
-Memorily is a small application that allows learners to demonstrate the knowledge acquired in the *Laravel Basics* class. The application focuses on two main features. First, it provides a way to record thoughts and memories, similar to a journal. Second, it includes a to-do list for tracking tasks and resolutions.
+
+# Memorily – Tagebuch mit To-Do-Liste
+
+Dieses Projekt ist eine einfache Laravel-Anwendung, mit der du Erinnerungen (Memories) und To-Dos verwalten kannst. Sie wurde im Rahmen einer Projektarbeit erstellt.
+
+## Features
+- Persönliche Memories (Tagebuch-Einträge) anlegen, anzeigen, bearbeiten und löschen
+- Memories mit Titel, Text, Farbe und optionalem Bild
+- Übersicht aller Memories
+- To-Do-Liste: Aufgaben anlegen, als erledigt markieren und löschen
+- Übersicht aller To-Dos
+- Eingabevalidierung und Statusmeldungen
+- Modernes, handgezeichnetes Design mit [PaperCSS](https://www.getpapercss.com/)
+
+## Installation
+1. Repository klonen:
+	```
+	git clone <REPO-URL>
+	cd memorily-Tagebuch-mit-To-do-Liste
+	```
+2. Abhängigkeiten installieren:
+	```
+	composer install
+	npm install && npm run build
+	```
+3. .env-Datei anlegen (ggf. aus .env.example kopieren) und Datenbankzugang eintragen.
+4. Anwendungsschlüssel generieren:
+	```
+	php artisan key:generate
+	```
+5. Migrationen ausführen:
+	```
+	php artisan migrate
+	```
+6. Lokalen Server starten:
+	```
+	php artisan serve
+	```
+7. Anwendung im Browser öffnen: [http://localhost:8000](http://localhost:8000)
+
+## Nutzung
+- Memories: `/memories`
+- To-Do-Liste: `/todos`
+
+## Beispiel-Bild-URL
+Du kannst z.B. diese Bild-URL für eine Memory verwenden:
+```
+https://upload.wikimedia.org/wikipedia/commons/4/4c/Dice.png
+```
+
+## Hinweise
+- Das Design basiert auf PaperCSS, kann aber beliebig angepasst werden.
+- Es ist kein Login/Authentifizierung notwendig.
+- Die Anwendung ist für Lern- und Demonstrationszwecke gedacht.
+
+
 
 ## Credits
 - <a href="https://github.com/papercss/papercss">Paper CSS</a>
+
 
 ## License and terms of use
 
